@@ -1,0 +1,51 @@
+/*Modified from :https://github.com/muratkemaldar/using-react-hooks-with-d3.git*/
+
+svg {
+display: block;
+  width: 100%;
+  height: 250px;
+}
+
+.country{
+  fill:lightgrey;
+  stroke: black;
+  stroke-width: 0.3;
+
+}
+
+svg .country:hover {
+  stroke: black;
+  stroke-width: 1px;
+  cursor: pointer;
+  fill:lightgreen;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 50px 150px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100px;
+  border: 1px solid black;
+  margin: 0 auto 5px;
+}
+
+#africa{
+ 
+  width: 650px;
+  height: 800px;
+  margin: 0px 150px 150px 150px;
+ 
+
+}
+
+
+
+
