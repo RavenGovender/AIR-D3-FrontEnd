@@ -31,8 +31,13 @@ function GeoAfrica({data, property}){
             .transition()
             .attr("d", feature => pathGenerator(feature));
 
-
-
+      /*  var xy = projection([-26.1714537,27.8999389])
+        svg.append("circle").attr({
+            cx: xy[0],
+            cy: xy[1],
+            r: 5,
+            fill: "blue"
+        })*/
 
 
     },[data, size, property, selectedCountry]);

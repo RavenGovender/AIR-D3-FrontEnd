@@ -13,9 +13,9 @@ function App() {
   return(
 
     <TransformWrapper
-        initialScale={1}
-        initialPositionX={200}
-        initialPositionY={100}
+        initialScale={1.25}
+        initialPositionX={50}
+        initialPositionY={40}
       >
         {({ zoomIn, zoomOut, resetTransform, ...rest }) => (
   
@@ -53,8 +53,14 @@ function App() {
     )}
     </TransformWrapper>
 
-    
-
+    /*
+        var xy = projection([-26.1714537,27.8999389])
+        svg.append("circle").attr({
+            cx: xy[0],
+            cy: xy[1],
+            r: 5,
+            fill: "blue"})
+*/
 
   );
 }
